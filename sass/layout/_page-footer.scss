@@ -1,0 +1,121 @@
+/* Footer */
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  color: var(--primary-white-color);
+  background-color: var(--secondary-black-color);
+
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
+
+.container--page-footer {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+}
+
+/* Footer address */
+
+.address-container {
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 165px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+    margin-bottom: 0;
+  }
+}
+
+.address {
+  font-style: normal;
+}
+.address__item:not(:last-child) {
+  margin-bottom: 8px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 9px;
+  }
+}
+.address__link {
+  color: var(--secondary-white-color);
+  text-decoration: none;
+
+  transition: color var(--transition-time) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+/*+ Footer Socials */
+
+.socials-container {
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+    margin-bottom: 0;
+  }
+}
+
+.page-footer__appeal {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Form in Footer */
+
+.subscription-form__label {
+  display: block;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 1200px) {
+    display: inline-block;
+  }
+}
+
+.subscription-form__input {
+  width: 100%;
+  padding: 15px 16px;
+
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--primary-white-color);
+  background-color: var(--secondary-black-color);
+
+  &::placeholder {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-white-color);
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-right: 12px;
+  }
+}
+
+.subscription-form__icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}

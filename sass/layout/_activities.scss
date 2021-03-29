@@ -1,0 +1,32 @@
+.section--desktop-only {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.activities__item {
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+}
+.activities__thumb {
+  position: relative;
+}
+.activities__name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  font-size: inherit;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}

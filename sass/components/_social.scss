@@ -1,0 +1,54 @@
+/*+ Social in Team */
+.social {
+  display: flex;
+  justify-content: center;
+}
+.social__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: var(--primary-white-color);
+
+  transition: background-color var(--transition-time) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+.social__icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+
+  transition: fill var(--transition-time) var(--timing-function);
+
+  .social__link:hover &,
+  .social__link:focus & {
+    fill: var(--primary-white-color);
+  }
+}
+
+/*+ Footer Socials */
+
+.social__link--theme-dark {
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color var(--transition-time) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+.social__icon--theme-dark {
+  fill: var(--primary-white-color);
+}

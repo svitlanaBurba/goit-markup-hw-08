@@ -1,0 +1,24 @@
+:root {
+  --main-font: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --secondary-font: raleway, Roboto, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+  --secondary-bg-color: #f5f4fa;
+  --secondary-black-color: #2f303a;
+  --header-border-color: #ececec;
+  --inner-border-color: #eeeeee;
+
+  --card-set-gap: 30px;
+  --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  --transition-time: 250ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,30 @@
+/*+ logo */
+.logo {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+  text-decoration: none;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  &--theme-white {
+    color: var(--primary-white-color);
+  }
+  &--footer {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
+
+.logo__accent {
+  color: var(--accent-color);
+}
