@@ -876,6 +876,13 @@ body.modal-open {
   }
 }
 
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--card-set-gap) * -1);
+  margin-left: calc(var(--card-set-gap) * -1);
+}
+
 .activities__item {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
