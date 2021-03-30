@@ -26,10 +26,7 @@ img {
 .list {
   list-style: none;
 }
-/* Flex for lists in sections */
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(var(--card-set-gap) * -1);
-  margin-left: calc(var(--card-set-gap) * -1);
+
+body.modal-open {
+  overflow: hidden;
 }
